@@ -1,2 +1,2 @@
 # CoastalCliffMappingTool
-A tool to map coastal cliffs by automatically extracting cliff base and cliff top positions.
+A tool to map coastal cliffs by automatically extracting cliff base and top positions from topographic data.

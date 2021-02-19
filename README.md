@@ -1,6 +1,6 @@
 # CliffDelineaTool
-CliffDelineaTool is a tool to map coastal cliffs by finding cliff base and top positions from topographic data.
-The MATLAB script takes as input a text file with a series of points with the following information:
+<em>CliffDelineaTool</em> is a tool to map coastal cliffs by finding cliff base and top positions from topographic data.</br>
+The MATLAB script takes as input a text file with a series of points conrtaining the following information:
 - point ID
 - transect ID 
 - elevation

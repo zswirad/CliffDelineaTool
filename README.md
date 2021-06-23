@@ -3,23 +3,8 @@
 Please cite: Swirad Z.M. & Young A.P. 2021. Automating coastal cliff erosion measurements from large-area LiDAR datasets in California, USA. Geomorphology 389: 107799 (https://doi.org/10.1016/j.geomorph.2021.107799) if using this code.</br></br>
 
 <b>FAQ</b></br></br>
-<b>How to generate cross-shore transects and points?</b></br>
-
-ArcMap:
-1.	Make a seaward and landward lines
-2.	Generate Points Along Lines (seaward)
-3.	Calculate Field (ID = FID + 1)
-4.	Copy point shp
-5.	Near (points to landward line; tick ‘location’)
-6.	Make XY Event Layer (of the Near location in point Attribute Table)
-7.	Data Management > Append (XY layer and copied points, no test)
-8.	Calculate Field (ID-1 = ID)
-9.	Points to Line (field: ID_1)
-10.	Densify
-11.	Feature Vertices to Points
-12.	Extract Values to Points (elevation)
-13.	Near (seaward line)
-14.	Export Attribute Table
+<b>How to generate cross-shore transects and points in ArcMap?</b></br>
+Create polylines to delimit seaward and landward extent of transects. Generate equally-spaced points along the seaward polyline (<em>Generate Points along Lines</em>). Add a new field to the Attribute Table of the point shapefile (<em>Calculate Field</em>: ID = FID + 1). Copy the point shapefile. Get the locations of the nearest points along the landward polyline for the point shapefile (<em>Near>; tick ‘location’). Extract those neares points along the landward polyline (<em>Make XY Event Layer</em> of the Near location in point Attribute Table). Append the new point layer to the copied point shapefile (<em>Data Management > Append</em>; 'no test'). Add a new field to the Attribute Table of the appended shapefile (<em>Calculate Field</em>: ID_1 = ID). Convert points to a polyline (<em>Points to Line</em>; field: ID_1). Densify polyline to desired interval (<em>Densify</em>)and use it to create a point shapefile (<em>Feature Vertices to Points</em>). Extract the elevation values for points from DEM (<em>Extract Values to Points</em>). Calculate the distance to the seaward polyline (<em>Near</em>). Export the Attribute Table.</br></br>
 
 <b>Does it matter how long the transects are?</b></br>
 <b>How to space transects alongshore?</b></br>

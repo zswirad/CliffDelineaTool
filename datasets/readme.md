@@ -1,1 +1,6 @@
-ffff
+# CliffDelineaTool: calibration and validation datasets
+There are four calibration (AOIs #1-4) and four validation (AOIs #5-8) datasets. Each folder contains a DEM (aoiX_dem.tif), cross-shore transects at 5 m intervals (aoiX_transects.shp), points spaced at 1 m intervals along the transects with the information on elevation (m NAVD88) and the distance from transect seaward end (m) (aoiX_points.shp), the <em>CliffDelineaTool</em> input document (aoiX_points.txt) that is the Attribute Table of the point shapefile, and point shapefiles representing true and modelled positions of the cliff base and top (aoiX_base_true.shp, aoiX_top_true.shp, aoiX_base_modelled.shp, aoiX_top_modelled.shp).
+is an algorithm for mapping coastal cliffs by finding cliff base and top positions along cross-shore transects. Written in MATLAB R2019a, it takes as input text files with a series of points containing information on point ID, transect ID, elevation and distance from the seaward end of the transect. To run the code you need to generate alongshore transects and resample them. Instructions on how to do it in ArcMap can be found below (FAQ).</br></br>
+Please cite: Swirad Z.M. & Young A.P. 2021. Automating coastal cliff erosion measurements from large-area LiDAR datasets in California, USA. Geomorphology 389: 107799 (https://doi.org/10.1016/j.geomorph.2021.107799) if using this code.</br></br>
+
+<b>FAQ</b>

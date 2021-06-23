@@ -1,14 +1,16 @@
 # CliffDelineaTool
-<em>CliffDelineaTool</em> is a tool to map coastal cliffs by finding cliff base and top positions from topographic data.</br>
-It assumes that if a coast is described by a series of coastline-normal transects, a cliff base and a cliff top position can be identified for individual transects based on elevation, across-shore location and spatial relationships with other points along the transects.</br></br>
-The MATLAB script takes as input a text file with a series of points conrtaining the following information:
+<em>CliffDelineaTool</em> is an algorithm for mapping coastal cliffs by finding cliff base and top positions based on topography.</br>
+It assumes that if a coast is described by a series of coastline-normal transects, a cliff base and a cliff top positions can be identified for individual transects based on elevation, across-shore location and spatial relationships with other points along the transects.</br></br>
+The MATLAB script takes as input a text file with a series of points containing the following information:
 - point ID
 - transect ID 
 - elevation
-- distance from the seaward end of the transect
+- distance from the seaward end of the transect. </br></br>
+To run the code you need to generate alongshore transects and resample them. Instructions on how to do it in ArcMap can be found at the end of this document.</br></br>
+Please cite: Swirad Z.M. & Young A.P. 2021. Automating coastal cliff erosion measurements from large-area LiDAR datasets in California, USA. Geomorphology 389: 107799. https://doi.org/10.1016/j.geomorph.2021.107799 if using this code.</br></br></br></br>
 
 <b>FAQ</b>
-a.	How to generate cross-shore transects and points?
+<b>How to generate cross-shore transects and points?</b>
 
 ArcMap:
 1.	Make a seaward and landward lines

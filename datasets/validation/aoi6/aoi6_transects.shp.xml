@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210414</CreaDate><CreaTime>17100400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\PointsToLine" Date="20210414" Time="171004">PointsToLine aoi1seawardPoints5mCopy C:\postdoc_lidar\01_delimiting_cliffs\aoi1transects2.shp Id_1 # NO_CLOSE</Process></lineage></DataProperties></Esri></metadata>

@@ -1,5 +1,5 @@
 # CliffDelineaTool
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5724975.svg)](https://doi.org/10.5281/zenodo.5724975)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5724975.svg)](https://doi.org/10.5281/zenodo.5724975)</br>
 <em>CliffDelineaTool</em> is an algorithm for mapping coastal cliffs by finding cliff base and top positions along cross-shore transects. Written in MATLAB and available in Python, it takes as input text files with series of points containing information on point ID, transect ID, elevation and distance from the seaward transect ends. To run the code you need to generate alongshore transects and resample them. Suggestions on how to do it in ArcMap can be found below. See <em>datasets</em> folder for the calibration and validation datasets.</br></br>
 If you use the code, please cite the article: Swirad Z.M. & Young A.P. 2021. CliffDelineaTool v1.1.0: an algorithm for identifying coastal cliff base and top positions. Geoscientific Model Development Discussions [preprint]. https://doi.org/10.5194/gmd-2021-269</br></br>
 <b>How to generate cross-shore transects and points in ArcMap?</b></br>
